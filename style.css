@@ -1,0 +1,74 @@
+body {
+    background-image: url("https://i.pinimg.com/736x/2d/f8/94/2df894f31f1f3cf702fc3890574fc14a.jpg");
+    background-size: cover;
+    font: normal 15pt Arial;
+}
+
+header {
+    color: white;
+    text-align: center;
+    padding: 10px; 
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+    padding: 10px;
+}
+
+div {
+    padding: 15px;
+    align-items: center;
+}
+
+button {
+    background: rgb(0, 110, 255);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 9px;
+}
+
+input{
+    border-radius: 10px;
+    width: 50%;
+    height: 30px;
+    margin: 6px;
+}
+#passo{
+    display: flex;
+    align-items: center;
+}
+label{
+    display: flex;
+    align-items: center;
+}
+@media (max-width: 600px) {
+    section {
+        width: 90%;
+    }
+    footer {
+        clear: both;
+        font-size: 12px;
+    }
+    button {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+
+}
+ 
