@@ -11,23 +11,15 @@
 <h1>Contador</h1>
 </header>
 <section id="secao">
-  <label>
-    <p>Inicio: </p> 
-   <input type="number" id="inicio" placeholder="Digite um número">
-   </label> 
-   <label>
-    <p>Fim: </p> 
-   <input type="number" id="fim" placeholder="Digite um número">
-   </label>
-   <label>
-    <p>Passo: </p> 
-   <input type="number" id="passo" placeholder="Digite um número"><br>
-    </label> 
-    <button id="bu" onclick= "contar()">Contar</button>
+  <div id="div1">
+  <p>Inicio: <input type="number" id="inicio" placeholder="Digite um número"></p>
+  <p>Fim: <input type="number" id="fim" placeholder="Digite um número"></p>
+  <p>Passo: <input type="number" id="passo" placeholder="Digite um número"></p>
+  <p><button id="botao" onclick="contar()">Contar</button> </p>
+  </div>
     <label>
         <p id="resultado">processando...</p>    
     </label>  
-
 </section>  
 </body>
 <script src="script.js"></script>
