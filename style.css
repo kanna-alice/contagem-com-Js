@@ -1,5 +1,5 @@
 body {
-    background-image: url("https://i.pinimg.com/736x/2d/f8/94/2df894f31f1f3cf702fc3890574fc14a.jpg");
+    background-color: rgb(123, 0, 255);
     background-size: cover;
     font: normal 15pt Arial;
 }
@@ -50,10 +50,6 @@ input{
     height: 30px;
     margin: 6px;
 }
-#passo{
-    display: flex;
-    align-items: center;
-}
 label{
     display: flex;
     align-items: center;
@@ -72,5 +68,10 @@ label{
     }
 
 
+}
+#bu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
  
